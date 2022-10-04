@@ -1,0 +1,19 @@
+@import '_footer.scss';
+@import '_title.scss';
+@import '_list.scss';
+
+header {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* section 2 - 3 */
+strong {
+  padding-left: 2%;
+  vertical-align: top;
+}

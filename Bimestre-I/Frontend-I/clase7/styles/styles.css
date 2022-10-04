@@ -1,0 +1,53 @@
+/* header */
+
+header {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+.titulo {
+  background-color: #c4c4c4;
+  color: #005677;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  word-spacing: 7px;
+}
+
+/* section 1 */
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* section 2 - 3 */
+strong {
+  padding-left: 2%;
+  vertical-align: top;
+}
+
+.lista {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* footer */
+footer > p {
+  background-color: #005677;
+  color: #ffff;
+  font-size: 25px;
+  /* font-weight: bolder; */
+  text-transform: uppercase;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.icono {
+  margin-right: 1%;
+}
+
+.left {
+  margin-left: 1%;
+}

@@ -1,0 +1,31 @@
+
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+
+Cualquier lenguaje de programación puede usarse en un sistema siempre y cuando haya un intérprete o compilador.
+Porque un lenguaje de programación compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo, 
+este lenguaje ensamblador depende de 2 cosas, de la arquitectura del procesador y la interpretación que le de el sistema operativo.
+
+¿Qué tipo de máquina virtual soporta virtualBox?. 
+
+Por medio de esta aplicación es posible instalar sistemas operativos adicionales, conocidos como «sistemas invitados», 
+dentro de otro sistema operativo «anfitrión», cada uno con su propio ambiente virtual. 
+Entre los sistemas operativos soportados (en modo anfitrión) se encuentran GNU/Linux, Mac OS X, OS/2 Warp, Genode,1​ Windows y Solaris/OpenSolaris, 
+y dentro de ellos es posible virtualizar los sistemas operativos FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, MS-DOS, Genode y muchos otros.
+
+VirtualBox ofrece algunas funcionalidades interesantes, como la ejecución de máquinas virtuales de forma remota, por medio del Remote Desktop Protocol (RDP),
+soporte iSCSI, aunque estas opciones no están disponibles en la versión OSE.
+
+
+¿Qué función cumple el hypervisor en la virtualización?
+
+El hipervisor proporciona a cada máquina virtual los recursos que se le habían asignado, 
+y gestiona la programación de ellos en función de los recursos físicos.
+Un hipervisor permite que un ordenador host preste soporte a varias máquinas virtuales invitadas mediante el uso compartido virtual de sus recursos, 
+como la memoria y el procesamiento.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+No. Las máquinas virtuales de procesos se ejecutan en un mismo servidor para ejecutar varias instancias de la misma aplicación de forma separada. De ese modo, si una de ellas falla, no afectará al funcionamiento del resto.
+
+
+

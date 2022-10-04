@@ -1,0 +1,29 @@
+git init ---> Crea repositorio local
+
+git clone url  ---> Clona repositorio remoto ya creado
+
+git status ---> muestra el estado del directorio de trabajo
+
+git add (nombre_archivo.extension ó .) ---> agrega los cambios al directorio de trabajo
+
+git commit -m '' ---> realiza la captura de los cambios agragados anteriormente al directorio de trabajo
+
+git pull ---> Nos trae los últimos cambios del repositorio remoto 
+
+git push ---> Enviamos al repositorio nuestros cambios 
+
+git config user.email ---> Configuramos nuestro email de nuestra cuenta GitHub
+
+git config user.name ----> Configuramos nuestro nombre
+
+git log ----> Muestra el historial de commits realizados
+
+git branch (nombre_rama)  ----> Creamos una ama
+
+git checkout (nombre_rama)  ----> Nos movemos a la rama indicada
+
+git branch --list ---> Listado de ramas
+
+git branch -d (nombre_rama) ---> Eliminamos una rama
+
+git merge ---> Fusiona las ramas

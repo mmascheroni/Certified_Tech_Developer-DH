@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Heroes</title>
+  </head>
+  <body>
+    <header>
+      <p class="top">20% de descuento en todos los producto</p>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Logo" />
+        <p>Tienda Heroes</p>
+      </div>
+      <nav>
+        <li>Contacto</li>
+        <li>Registrarme</li>
+        <li>Ingresar</li>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-form">
+        <h1>Añadi tu super!</h1>
+        <p>Agregá tu personaje favorito complementado las opciones</p>
+        <form class="form" action="#">
+          <div class="input-box">
+            <div class="name">
+              <label for="name">*Nombre</label>
+              <br />
+              <input class="input" type="text" id="name" />
+            </div>
+
+            <div class="especie">
+              <label for="especie">*Especie</label>
+              <br />
+              <input class="input" type="text" id="especie" />
+            </div>
+          </div>
+
+          <div class="input-box">
+            <div class="date">
+              <label for="fecha">*Fecha</label>
+              <br />
+              <input class="input" type="date" id="fecha" />
+            </div>
+
+            <div class="picture">
+              <label for="picture">Agregar Foto</label>
+              <br />
+              <input class="input" type="file" id="picture" />
+            </div>
+          </div>
+
+          <div class="input-box">
+            <div class="textarea">
+              <textarea
+                name="description"
+                id="description"
+                placeholder="Description"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <div class="checkboxs">
+              <div class="container-checks">
+                <div class="poderes">
+                  <label for="poderes">Poderes</label>
+                  <br />
+
+                  <label
+                    ><input
+                      class="chbox"
+                      type="checkbox"
+                      id="cbox1"
+                      value="first_checkbox"
+                    />
+                    Volar</label
+                  ><br />
+
+                  <input type="checkbox" id="cbox2" value="second_checkbox" />
+                  <label for="cbox2">Superinteligencia</label>
+                  <br />
+
+                  <input type="checkbox" id="cbox3" value="three_checkbox" />
+                  <label for="cbox3">Vista de rayo laser</label>
+                  <br />
+
+                  <input type="checkbox" id="cbox4" value="fourth_checkbox" />
+                  <label for="cbox4">Super Fuerza</label>
+                </div>
+              </div>
+
+              <div class="type">
+                <hr />
+                <label for="type">Tipo de personaje</label>
+                <br />
+
+                <label
+                  ><input
+                    class="chbox"
+                    type="radio"
+                    id="radio1"
+                    value="radio_one"
+                  />Heroe/Heroina</label
+                >
+                <br />
+
+                <input type="radio" id="radio2" value="two_radio" />
+                <label>Villano/Villana</label>
+              </div>
+            </div>
+          </div>
+          <button class="btn-form">Añadir</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>TODOS LOS DERECHOS RESERVADOS A FRONTEND1</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+/* header */
+
+.descuento {
+  background-color: #d1891c;
+  padding: 0.5px;
+  font-size: 20px;
+}
+
+.descuento p,
+.heroes h1 {
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.heroes h1 {
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.heroes {
+  background-color: #00669f;
+  color: #fff;
+  padding: 1px;
+}
+
+/* main */
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* section div .img-perfil {
+  border-radius: 50%;
+} */
+
+.batman {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section .batman .img-perfil {
+  border-radius: 50%;
+  margin-top: -80px;
+  position: relative;
+}
+
+section .batman .corazon {
+  position: relative;
+  top: -180px;
+  left: -120px;
+}
+
+section .batman .parrafo {
+  width: 300px;
+}
+
+.parrafo {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -80px;
+}
+
+.parrafo h3 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.parrafo p {
+  padding: 25px;
+  margin-top: -20px;
+}
+
+.btn {
+  background-color: #00669f;
+  color: #f3f3f3;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  background-color: #00669f;
+  color: #fff;
+  padding: 0.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+footer > .github {
+  margin-right: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* responsive */
+
+@media (max-width: 1100px) {
+  section {
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer > .github {
+    margin-right: 0;
+  }
+
+  footer > p {
+    margin-left: 0;
+    text-align: center;
+  }
+}

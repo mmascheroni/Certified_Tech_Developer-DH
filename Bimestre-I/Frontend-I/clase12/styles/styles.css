@@ -1,0 +1,427 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-secondary: #3c2313;
+  --color-yellow: #f0a83e;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+/**** header ****/
+
+.top {
+  background: #222222;
+  color: #fff;
+  padding: 0.3em;
+}
+
+p {
+  margin: 0;
+  margin-left: 7em;
+}
+
+.container {
+  background-color: var(--color-yellow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.logo {
+  padding-left: 2em;
+}
+.nav-header {
+  padding-right: 2em;
+}
+
+.nav-header ul li {
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 1.5em;
+}
+
+.nav-header ul li:nth-child(4) {
+  margin-right: 0;
+}
+
+li img {
+  margin-right: 0.2em;
+}
+
+/**** main ****/
+
+.container-comederos {
+  background-image: url("../assets/bowl-and-pet-daities-on-green-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 25em;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.title p {
+  background-color: #fff;
+  border-radius: 0.2em;
+  color: var(--color-secondary);
+  font-size: 2.4rem;
+  margin-top: 12%;
+  margin-right: 0.2em;
+  padding: 0.2em;
+}
+
+.title span {
+  color: var(--color-secondary);
+  margin-right: 3em;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+.btn {
+  background: var(--color-yellow);
+  border: none;
+  border-radius: 0.3em;
+  color: #fff;
+  font-size: 1.1em;
+  margin-top: 0.2em;
+  margin-right: 7em;
+  padding: 0.8em 1.8em;
+}
+
+.title-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+h1 {
+  color: var(--color-secondary);
+  font-size: 2.5em;
+}
+
+.title-productos span {
+  color: #666666;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2em;
+}
+img {
+  max-width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p,
+.card span {
+  align-self: center;
+  font-size: 1em;
+  margin-left: -1em;
+}
+
+.card span {
+  color: var(--color-yellow);
+  font-weight: 700;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-size: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+
+form input {
+  width: 200%;
+  border-radius: 1em;
+  border: none;
+  background-color: var(--color-secondary);
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.btn-form {
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 2em;
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.btn-form:nth-child(1) {
+  margin-right: 2.5em;
+}
+
+.reset {
+  background-color: #8a8787;
+}
+
+.send {
+  background-color: var(--color-yellow);
+}
+
+.container-suscribe {
+  background: var(--color-yellow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+b {
+  color: #fff;
+  font-size: 1.2em;
+  position: relative;
+  top: -0.7em;
+  margin-left: 0.5em;
+}
+
+.right input {
+  border: none;
+  border-radius: 1em;
+  padding: 1em 3em 1em 0.5em;
+  margin-right: 0.5em;
+}
+
+.btn-suscribe {
+  background-color: var(--color-secondary);
+  color: #fff;
+  border: none;
+  border-radius: 2em;
+  padding: 1em 1.5em;
+}
+
+/**** Footer ****/
+
+.footer-top {
+  background: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.icon p {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.icon:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.icon span {
+  font-size: 0.6em;
+  color: #8a8787;
+}
+
+.derechos {
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin: 0;
+  padding: 0.5em;
+}
+
+/**** Animaciones ****/
+
+img:hover {
+  transition: 0.3s;
+  transform: scaleY(1.1);
+  opacity: 40%;
+}
+
+li:hover {
+  transition: 0.2s all;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.3s all;
+  transform: scale(1.2);
+  opacity: 80%;
+  cursor: pointer;
+}
+
+/**** Responsive Design ****/
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .container-comederos {
+    height: 20em;
+  }
+
+  .title {
+    align-items: center;
+  }
+
+  .title p {
+    width: 90%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-right: 0;
+  }
+
+  .title span {
+    font-size: 1.3em;
+    margin-right: 1.5em;
+    align-self: flex-end;
+  }
+
+  .title .btn {
+    margin-right: 4em;
+    align-self: flex-end;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  form input {
+    width: 180%;
+  }
+
+  .container-suscribe {
+    flex-direction: column;
+  }
+
+  .footer-top {
+    flex-direction: column-reverse;
+  }
+
+  .logo-footer {
+    margin-bottom: 2em;
+  }
+
+  .icons {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .top p {
+    margin-left: 1em;
+  }
+
+  .logo {
+    padding-left: 0.2em;
+  }
+
+  .nav-header {
+    padding-right: 0.2em;
+  }
+
+  .container-comederos {
+    height: 13em;
+  }
+
+  .title p {
+    font-size: 1.2em;
+  }
+
+  .title span {
+    font-size: 1em;
+    margin-right: 2em;
+  }
+
+  .title .btn {
+    font-size: 0.8em;
+    padding: 1em 1em;
+    margin-right: 6em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .title-productos span {
+    font-size: 0.9em;
+  }
+
+  form input {
+    width: 130%;
+  }
+
+  .container-suscribe {
+    padding: 1em 0.2em;
+  }
+
+  .right input {
+    width: 50%;
+  }
+}
