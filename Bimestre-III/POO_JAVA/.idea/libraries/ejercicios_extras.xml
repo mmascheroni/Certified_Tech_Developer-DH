@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ejercicios_extras">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/POO/src/ejercicios_extras/DH-Recorriendo-Colecciones.zip!/" />
+      <root url="jar://$PROJECT_DIR$/POO/src/ejercicios_extras/DH-Operaciones-Sobre-Colecciones.zip!/" />
+      <root url="jar://$PROJECT_DIR$/POO/src/ejercicios_extras/DH-Operaciones-Sobre-Colecciones (1).zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
